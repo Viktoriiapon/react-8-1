@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .navLink {
+    display: flex;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .navLink:hover,
+  .navLink:focus {
+    transform: scale(1.1);
+  }
+  .active {
+    background-color: gold;
+    color: white;
+    border: none;
+    
+  }

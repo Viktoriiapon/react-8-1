@@ -1,0 +1,12 @@
+.userBox{
+  display: flex;
+  gap: 10px;
+
+}
+
+.span{
+  font-size: 24px;
+}
+.logout{
+  border-radius: 10px;
+}

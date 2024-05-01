@@ -1,0 +1,19 @@
+.homePageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .header {
+    margin-top: 200px;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+  }
+  
+  .text {
+    margin-top: 15px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
