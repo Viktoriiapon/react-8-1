@@ -13,7 +13,7 @@ const HomePage = () => {
       {isLoggedIn ? (
         <NavLink to="/contacts">
           <p className={css.text}>
-       Your contacts  
+       Return to your contacts  
           </p>
         </NavLink>
       ) : (
