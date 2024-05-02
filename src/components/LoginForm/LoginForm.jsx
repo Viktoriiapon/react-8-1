@@ -43,11 +43,11 @@ export const LoginForm = () => {
         
 
           <label htmlFor="email">Email</label>
-          <Field className={css.input} type="email" id="email" name="email" placeholder="email@.com" />
+          <Field className={css.input} type="email" id="email" name="email" placeholder="email@.com" autoComplete="email" />
           <ErrorMessage name="email" component="div" />
 
           <label htmlFor="password">Password</label>
-          <Field className={css.input} type="password" id="password" name="password" placeholder="your password" />
+          <Field className={css.input} type="password" id="password" name="password" placeholder="your password" autoComplete="current-password"/>
           <ErrorMessage name="password" component="div" />
 
           <button className={css.logBtn} type="submit">

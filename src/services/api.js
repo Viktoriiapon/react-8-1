@@ -11,11 +11,11 @@ export const clearToken = () =>
   (instance.defaults.headers.common.Authorization = "");
 
 
-  export const requestContacts = async (token) => {
+  export const requestContacts = async () => {
     const { data } = await instance.get("/contacts", {
        
       });
-  console.log(headers);
+
     return data;
   };
 
